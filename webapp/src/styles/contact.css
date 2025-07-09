@@ -1,0 +1,98 @@
+/* Contact Page Styling */
+.contact-section {
+    background-color: #f4f4f4;
+    padding: 80px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .contact-text {
+    max-width: 500px;
+  }
+  
+  .contact-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-text p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .input-field {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+    box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
+  }
+  
+  .contact-form .input-field:focus {
+    border-color: #1abc9c;
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #16a085;
+  }
+  
+  .status-message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1abc9c;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
